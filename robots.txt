@@ -1,0 +1,18 @@
+# robots.txt for abiysetargew.github.io
+#
+# Google AdMob's app-ads.txt crawler (Google-adstxt, plus
+# Mediapartners-Google and Googlebot) must be allowed to fetch
+# /app-ads.txt. Without this explicit allow, a crawler that treats
+# an absent directive as a default-deny can skip the file and report
+# the app as unverified.
+#
+# Google requires exactly these two lines for the app-ads.txt crawler.
+
+User-agent: Google-adstxt
+Disallow:
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: Googlebot
+Disallow:
